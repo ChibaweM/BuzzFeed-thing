@@ -1,0 +1,23 @@
+body {
+    background-color: azure;
+    color: black;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+.hidden{
+    opacity: 0;
+    transition: all 3s;
+}
+
+.show {
+    opacity: 1;
+}
